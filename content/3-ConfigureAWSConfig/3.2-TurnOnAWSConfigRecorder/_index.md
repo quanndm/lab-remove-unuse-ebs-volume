@@ -7,15 +7,15 @@ pre : " <b> 3.2 </b> "
 ---
 
 1. Search for the config service on the AWS search bar, then click AWS config
-   ![TurnOnAWSConfig](../../image/3/3.2.1.png)
+   ![TurnOnAWSConfig](/images/3/3.2.1.png)
 
 
 2. On the Home page of AWS config, if it has not been initialized, when you first enter it will have the following layout, then click on 1-click setup
-   ![TurnOnAWSConfig](../../image/3/3.2.2.png)
+   ![TurnOnAWSConfig](/images/3/3.2.2.png)
 
 
 3. click confirm
-   ![TurnOnAWSConfig](../../image/3/3.2.3.png)
+   ![TurnOnAWSConfig](/images/3/3.2.3.png)
 
 
 

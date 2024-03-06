@@ -7,22 +7,22 @@ pre : " <b> 4.2 </b> "
 ---
 
 1. Go to the AWS Config dashboard, select Rules, select ec2-volume-inuse-check, click actions, select re-evaluate
-   ![TestAction](../../image/4/4.2.1.png)
+   ![TestAction](/images/4/4.2.1.png)
  
 
-   ![TestAction](../../image/4/4.2.2.png)
+   ![TestAction](/images/4/4.2.2.png)
 
 
-   ![TestAction](../../image/4/4.2.3.png)
+   ![TestAction](/images/4/4.2.3.png)
 
  
 
 2. Check the volume again
    - Go to EC2 dashboard, click on volumes in the menu bar, review the list of available volumes
-   ![TestAction](../../image/4/4.2.4.png)
+   ![TestAction](/images/4/4.2.4.png)
 
    - Check the snapshot, click on snapshot in the menu bar, there is a snapshot created from copying a volume
-   ![TestAction](../../image/4/4.2.5.png)
+   ![TestAction](/images/4/4.2.5.png)
 
   
 {{% notice note %}}

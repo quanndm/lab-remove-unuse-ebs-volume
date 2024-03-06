@@ -12,7 +12,7 @@ In this lab, you will practice deleting Amazon Elastic Block Store (Amazon EBS) 
 Link AWS Prescriptive Guidance Patterns: [here](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/delete-unused-amazon-elastic-block-store-amazon-ebs-volumes-by-using-aws-config-and-aws-systems-manager.html)
 
 When you complete this section, you will deploy the following infrastructure architecture:
-![structure](../images/1/design.png)
+![structure](/images/1/design.png)
 
 - Steps:
     1. The AWS Config rule evaluates the EBS volumes.

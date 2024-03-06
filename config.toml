@@ -1,5 +1,9 @@
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
+canonifyURLs = true
+contentDir = "content"
+staticDir = "static"
+baseUrl="https://quanndm.github.io/lab-remove-unuse-ebs-volume/"
 
 # For search functionality
 [outputs]
@@ -11,14 +15,16 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "journeyoftheaverageguy@gmail.com"
+  github="https://github.com/quanndm/lab-remove-unuse-ebs-volume"
+  author = "minhquan1852@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  
+
+
 [Languages]
 [Languages.en]
-title = "Start with Amazon VPC and AWS VPN Site-to-Site."
+title = "Delete unused Amazon Elastic Block Store (Amazon EBS) volumes by using AWS Config and AWS Systems Manager"
 weight = 1
 languageName = "English"
 
@@ -35,7 +41,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 20
 
 [Languages.vi]
-title = "Bắt đầu với Amazon VPC và AWS VPN Site to Site"
+title = "Xoá các EBS volume không còn sử dụng với AWS Config và AWS Systems Manager"
 weight = 2
 languageName = "Tiếng Việt"
 

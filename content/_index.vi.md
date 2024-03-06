@@ -14,7 +14,7 @@ Trong bài lab này, bạn sẽ thực hành về xoá các <b>Amazon Elastic Bl
 Link AWS Prescriptive Guidance Patterns: [here](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/delete-unused-amazon-elastic-block-store-amazon-ebs-volumes-by-using-aws-config-and-aws-systems-manager.html)
 
 Khi hoàn thành phần này, bạn sẽ triển khai kiến trúc hạ tầng như sau:
-![structure](../images/1/design.png)
+![structure](/images/1/design.png)
 
 - mô tả các bước:
     1. The AWS Config rule evaluates the EBS volumes.
