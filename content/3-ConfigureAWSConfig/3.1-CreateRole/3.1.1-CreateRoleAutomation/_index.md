@@ -7,10 +7,10 @@ pre : " <b> 3.1.1 </b> "
 ---
 
 1. Search for the keyword IAM on the AWS services search bar, then select the IAM service
-    ![CreateRole](/images/3/3.1.1.1.png)
+    ![CreateRole](../../../image/3/3.1.1.1.png)
 
 2. Click roles in the left menu bar, then select create role
-    ![CreateRole](/images/3/3.1.1.2.png)
+    ![CreateRole](../../../image/3/3.1.1.2.png)
 
 
 3. Initialize the role with the following parameters:
@@ -18,28 +18,28 @@ pre : " <b> 3.1.1 </b> "
     - Service or use case: System Manager
     - Choose a use case for the specified service: Use case Systems Manager
     - Then click next
-    ![CreateRole](/images/3/3.1.1.3.png)
+    ![CreateRole](../../../image/3/3.1.1.3.png)
 
 
     - Add permissions: search for permissions with the keyword AmazonSSMAutomationRole, then click on the checkbox and click next
-    ![CreateRole](/images/3/3.1.1.4.png)
+    ![CreateRole](../../../image/3/3.1.1.4.png)
 
     - Role name: AssumeRole
     - Description: keep default
-    ![CreateRole](/images/3/3.1.1.5.png)
+    ![CreateRole](../../../image/3/3.1.1.5.png)
 
     - Review and select create role
-    ![CreateRole](/images/3/3.1.1.6.png)
+    ![CreateRole](../../../image/3/3.1.1.6.png)
 
   
   
 
 4. After successfully creating the role, AWS will move the website to the Roles page, then select the newly created Role above, click on the role name to go to the details page.
-    ![CreateRole](/images/3/3.1.1.7.png)
+    ![CreateRole](../../../image/3/3.1.1.7.png)
 
 
 5. On the role details page, select the Trust Relationship tab, select edit trust policy
-    ![CreateRole](/images/3/3.1.1.8.png)
+    ![CreateRole](../../../image/3/3.1.1.8.png)
 
 
 
@@ -70,12 +70,12 @@ pre : " <b> 3.1.1 </b> "
         ]
     }
     ```
-    ![CreateRole](/images/3/3.1.1.9.png)
+    ![CreateRole](../../../image/3/3.1.1.9.png)
 
 
 
 7. On the role detail page, select the Permissions tab, then select add permission, select create inline policy
-    ![CreateRole](/images/3/3.1.1.10.png)
+    ![CreateRole](../../../image/3/3.1.1.10.png)
 
 
 8. Initialize with the following parameters:
@@ -96,11 +96,11 @@ pre : " <b> 3.1.1 </b> "
             ]
         }
         ```
-        ![CreateRole](/images/3/3.1.1.11.png)
+        ![CreateRole](../../../image/3/3.1.1.11.png)
 
 
     - Enter the policy name, review it and select create policy
-    ![CreateRole](/images/3/3.1.1.12.png)
+    ![CreateRole](../../../image/3/3.1.1.12.png)
   
 
 9. Create Inline policy with permission ec2:CreateSnapshot and ec2:DescribeSnapshots
@@ -121,5 +121,5 @@ pre : " <b> 3.1.1 </b> "
         ]
     }
     ```
-    ![CreateRole](/images/3/3.1.1.13.png)
-    ![CreateRole](/images/3/3.1.1.14.png)
+    ![CreateRole](../../../image/3/3.1.1.13.png)
+    ![CreateRole](../../../image/3/3.1.1.14.png)

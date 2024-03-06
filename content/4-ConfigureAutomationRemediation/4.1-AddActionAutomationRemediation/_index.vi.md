@@ -11,14 +11,14 @@ pre : " <b> 4.1 </b> "
    - chọn ec2-volume-inuse-check
    - click Actions
    - click Manage remediation
-   ![AddAction](/images/4/4.1.1.png)
+   ![AddAction](../../image/4/4.1.1.png)
 
 2. Ở trang Edit: Remediation action
    - click chọn Automatic remediation
    - Retries in: 5
    - Seconds: 300
    - Choose remediation action: search với từ khoá AWSConfigRemediation-DeleteUnusedEBSVolume, sau đó click chọn
-   ![AddAction](/images/4/4.1.2.png)
+   ![AddAction](../../image/4/4.1.2.png)
 
 
    - Rate limits:
@@ -28,14 +28,14 @@ pre : " <b> 4.1 </b> "
    - Parameters:
       - CreateSnapshot: true
       - AutomationAssumeRole: ARN of AssumeRole
-      ![AddAction](/images/4/4.1.3.png)
+      ![AddAction](../../image/4/4.1.3.png)
       
 
       - Sau đó nhấn vào save changes
-   ![AddAction](/images/4/4.1.4.png)
+   ![AddAction](../../image/4/4.1.4.png)
 
    - Save thành công
-   ![AddAction](/images/4/4.1.5.png)
+   ![AddAction](../../image/4/4.1.5.png)
 
 
 
